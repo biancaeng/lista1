@@ -16,15 +16,17 @@ public class lista1 {
             i = i + 1;
         }
         System.out.println(soma);
+        
         */
 
-
-
-    }
+        
+        for(int i = 3; i <= 100; i=i+3){
+            System.out.println(i);
+        }
 
 
 }
-    
+}
 
     
         
