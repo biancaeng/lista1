@@ -72,7 +72,7 @@ public class lista1 {
             System.out.println(resultado);
         }
         System.out.println("_____________________\n\n");
-        */
+        //*/ 
 
 
         //Questão 6
@@ -110,9 +110,47 @@ public class lista1 {
         System.out.println(baixo);
         System.out.println(resultado);
         */
-
-
         
+
+        // Questão 8
+        /* 
+        int x = 22;
+        while(x != 1){
+            if((x % 2) == 0){
+                x = x / 2;
+            }else{
+                x = 3 * x + 1;
+            }
+            System.out.println(x);
+        }*/
+
+
+
+
+        // Questão 9
+        /* 
+        for(int i = 1; i <= 4; i++){
+            System.out.print(i+" ");
+            for(int j = 2; j <= i; j++){
+                System.out.print(i*j+" ");
+            }
+           System.out.println("");
+        }*/
+
+
+        // Questão 10
+        /* 
+        for(int a = 1000; a <= 9999; a++){
+            int doisPrimeiros = a / 100;
+            int doisUltimos = a % 100;
+            if((doisPrimeiros + doisUltimos) * (doisPrimeiros + doisUltimos) == a){
+                System.out.println(a);
+            }
+        }*/
+        
+
+
+
 
         
 
